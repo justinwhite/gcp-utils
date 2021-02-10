@@ -43,7 +43,7 @@ if __name__ == '__main__':
       description=__doc__,
       formatter_class=argparse.RawDescriptionHelpFormatter)
   parser.add_argument('project_id', help='Your Google Cloud project ID.')
-  parser.add_argument('service_account', help='Service Account with access to VM.')
+  parser.add_argument('service_account', help='Delete all VMs running under this Service Account.')
   # TODO: add a dry run flag
   args = parser.parse_args()
 
